@@ -128,6 +128,19 @@
             --font-style-body: normal;
             --font-weight-body: 400;
         }
+
+        footer {
+            height: 100px;
+            background-color: #fe8838;
+            color: #fff;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer_list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
     </style>
     <style>
         html {
@@ -2206,9 +2219,7 @@
                         <div id="sf-custom__block--image_g9eawi"
                             class="sf-custom__block  sf-custom__block--image flex lg:w-full w-full items-start">
                             <div class="sf-custom__block-inner w-full">
-
                                 <div class="w-full block">
-
                                     <a href="/collections/ghee-%E0%A6%98%E0%A6%BF">
                                         <responsive-image class="sf-image " data-image-loading
                                             style="--aspect-ratio: 2.2775800711743774;">
@@ -2224,18 +2235,11 @@
                                                     alt="">
                                             </noscript>
                                         </responsive-image>
-
                                     </a>
-
                                 </div>
-
                             </div>
                         </div>
-
-
                     </m-custom-content>
-
-
                 </div>
             </div>
 
@@ -3498,8 +3502,20 @@
 
 
     </main><!-- BEGIN sections: footer-group -->
-    <footer class="sf-footer" data-section-type="footer" data-section-id="sections--17326543732958__footer">
+    <!-- <footer class="sf-footer" data-section-type="footer" data-section-id="sections--17326543732958__footer">
 
+    </footer> -->
+    <footer>
+        <div>
+            <ul class="footer_list">
+                <li>About Us</li>
+                <li>Return Policy</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+        <div><span>Copyright 2024 | BiBi Gura Moshla | Developed by: <a
+                    href="https://github.com/MinhajSiam">Minhaj_Siam</a></span></div>
     </footer>
 
     <script>
@@ -3545,6 +3561,7 @@
             color: white;
         }
     </style>
+
 </body>
 
 </html>
