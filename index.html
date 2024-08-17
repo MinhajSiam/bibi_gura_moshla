@@ -140,6 +140,17 @@
         .footer_list {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            display: flex;
+            column-gap: 30px;
+            justify-content: center;
+            padding: 15px 0;
+
+        }
+
+        .footer_list li:hover {
+            color: #000;
+            cursor: pointer;
+            transition: 0.3s ease-in;
         }
     </style>
     <style>
@@ -3506,7 +3517,7 @@
 
     </footer> -->
     <footer>
-        <div>
+        <div class="footer_menu">
             <ul class="footer_list">
                 <li>About Us</li>
                 <li>Return Policy</li>
@@ -3514,8 +3525,8 @@
                 <li>Terms & Condition</li>
             </ul>
         </div>
-        <div><span>Copyright 2024 | BiBi Gura Moshla | Developed by: <a
-                    href="https://github.com/MinhajSiam">Minhaj_Siam</a></span></div>
+        <div><span>Copyright 2024 | <span style="color: #000; font-weight: 600;">BiBi Gura Moshla</span> | Developed by:
+                <a href="https://github.com/MinhajSiam">Minhaj_Siam</a></span></div>
     </footer>
 
     <script>
