@@ -11,6 +11,7 @@
 
     <style>
         body {
+            margin: 0;
             font-family: "Poppins", sans-serif;
             font-weight: 400;
             font-style: normal;
@@ -25,6 +26,38 @@
             display: flex;
             justify-content: center;
         }
+
+        footer {
+            height: 100px;
+            background-color: #fe8838;
+            color: #fff;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer_list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            display: flex;
+            column-gap: 30px;
+            justify-content: center;
+            padding: 15px 0 0 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover {
+            color: #000;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+        }
+
+        li {
+            list-style: none;
+        }
     </style>
 </head>
 
@@ -34,10 +67,12 @@
 
             <h1>Return & Replacement Policy</h1>
 
-            <p>At BiBi Gura Moshla, it is uncommon for customers to receive damaged products. However, if there are any
+            <p>At <b>BiBi Gura Moshla</b>, it is uncommon for customers to receive damaged products. However, if there
+                are any
                 issues or if we fall short of your expectations, we are committed to upholding the trust you have placed
                 in
-                us. To reinforce this trust, BiBiGuraMoshla.com allows returns for products that are either damaged or
+                us. To reinforce this trust, <b>BiBiGuraMoshla.com</b> allows returns for products that are either
+                damaged or
                 incorrectly designed. In such cases, we will offer a replacement with a new item.</p>
 
             <b>If you are dissatisfied with your order, you can return it provided it meets the following
@@ -49,7 +84,7 @@
                     any
                     damage or tampering.</li>
                 <li>Any promotional items that came with the purchase must also be returned.</li>
-                <li>Refunds or replacements are contingent upon an inspection by the BiBi Gura Moshla team.</li>
+                <li>Refunds or replacements are contingent upon an inspection by the <b>BiBi Gura Moshla</b> team.</li>
                 <li>Replacements depend on stock availability from the Supplier. If the item is out of stock, a full
                     refund
                     will be issued without question.</li>
@@ -77,7 +112,8 @@
             <h3>How to Return</h3>
 
             <ul>
-                <li>Contact BiBi Gura Moshla Customer Care at support@bibiguramoshla.com within 03 days of receiving
+                <li>Contact <b>BiBi Gura Moshla</b> Customer Care at <b>support@bibiguramoshla.com</b> within 03 days of
+                    receiving
                     your
                     order.</li>
 
@@ -106,10 +142,22 @@
                     issued.</li>
                 <li>Refunds will be processed within 7-10 working days. If you do not receive your refund within this
                     period,
-                    please contact us at support@bibiguramoshla.com for further assistance.</li>
+                    please contact us at <b>support@bibiguramoshla.com</b> for further assistance.</li>
             </ul>
         </article>
     </div>
+    <footer>
+        <div class="footer_menu">
+            <ul class="footer_list">
+                <li>About Us</li>
+                <li><a href="return_policy.html">Return Policy</a></li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+        <div><span>Copyright 2024 © <span style="color: #000; font-weight: 600;">BiBi Gura Moshla</span> | Developed by:
+                <a href="https://github.com/MinhajSiam">Minhaj_Siam</a></span></div>
+    </footer>
 </body>
 
 </html>
