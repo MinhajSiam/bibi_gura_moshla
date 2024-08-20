@@ -100,15 +100,9 @@
             }
         }
 
-        .second {
-            /* padding: 0 50px 0 50px; */
-        }
-
         .c-item {
             box-shadow: 3px 3px 7px gray;
             border-radius: 5px;
-            width: 10px !important;
-            height: 100px !important;
             text-align: center;
             padding: 10px;
         }
@@ -117,17 +111,51 @@
             width: 50px;
         }
 
+        .bb_cards {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            /* column-gap: 10px; */
+        }
+
+        @media screen and (max-width:600px) {
+            .bb_cards {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         .bb_card {
             text-align: center;
             width: 200px;
-            height: 300px;
-            border-radius: 7px;
-            box-shadow: 5px 5px 10px gray;
+            border-radius: 3px;
+            box-shadow: 5px 5px 13px gray;
+            padding: 10px;
+            margin-bottom: 10px;
         }
 
         .bb_card img {
             width: 100%;
-            border-radius: 7px 7px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .bb_card h5 {
+            font-weight: 500;
+        }
+
+        .buy_now_btn {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            background-color: #fe8838;
+            padding: 5px 50px;
+            border-radius: 3px;
+            transition: .1s ease-in-out;
+        }
+
+        .buy_now_btn:hover {
+            background-color: white;
+            color: #fe8838;
+            border: 1px solid #fe8838;
         }
 
         footer {
@@ -264,27 +292,67 @@
                 <p>Fruits</p>
             </div>
         </section>
-        <section class="product_card">
-            <div class="row bb_cards">
-                <div class="col-3 bb_card">
+        <section class="bb_product_card">
+            <div class="bb_cards container">
+                <div class="bb_card">
                     <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
-                    <h3>Product Title</h3>
-                    <a href="#"></a>
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
                 </div>
-                <div class="col-3 bb_card">
+                <div class="bb_card">
                     <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
-                    <h3>Product Title</h3>
-                    <a href="#"></a>
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
                 </div>
-                <div class="col-3 bb_card">
+                <div class="bb_card">
                     <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
-                    <h3>Product Title</h3>
-                    <a href="#"></a>
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
                 </div>
-                <div class="col-3 bb_card">
+                <div class="bb_card">
                     <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
-                    <h3>Product Title</h3>
-                    <a href="#"></a>
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
+                </div>
+                <div class="bb_card">
+                    <img src="assets/images/A_কর্ণ ফ্লাওয়ার-Corn Flour_gura_moshla.jpg" alt="">
+                    <h5 class="my-3">Product Title</h5>
+                    <a class="buy_now_btn" href="#">Buy Now</a>
                 </div>
             </div>
         </section>
