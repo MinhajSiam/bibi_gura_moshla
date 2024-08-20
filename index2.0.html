@@ -100,26 +100,24 @@
             }
         }
 
-        .catagory {
+        .second {
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             border: 1px solid red;
+            justify-content: center;
+            align-items: center;
         }
 
-        .cata_items {
-            width: 150px;
-            height: 150px;
-            display: grid;
-            grid-template-columns: 1fr;
-            border-radius: 10px;
-            box-shadow: 5px 5px 15px gray;
-            padding: 10px;
-            font-size: 14px;
-            border: 1px solid gray;
+        .c-item {
+            box-shadow: 5px 5px 5px gray;
+            border-radius: 5px;
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
         }
 
-        .cata_items img {
-            width: 50%;
+        .c-item img {
+            width: 80%;
         }
 
         footer {
@@ -196,16 +194,16 @@
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461"
-                                class="d-block w-100" alt="...">
+                            <!-- <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461" -->
+                            class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461"
-                                class="d-block w-100" alt="...">
+                            <!-- <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461" -->
+                            class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461"
-                                class="d-block w-100" alt="...">
+                            <!-- <img src="https://ghorerbazar.com/cdn/shop/files/offer_Slider.jpg?v=1713253461" -->
+                            class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -221,40 +219,39 @@
                 </div>
             </div>
         </section>
-        <section class="second">
-            <div class="catagory">
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
-                <div class="cata_items">
-                    <img src="assets/icon/lemon.png" alt="">
-                    <span>Fruits & Vegetables</span>
-                </div>
+        <section class="second row row-cols-6">
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
+            </div>
+            <div class="c-item col">
+                <img src="assets/icon/lemon.png" alt="">
+                <p>Fruits</p>
             </div>
         </section>
     </main>
